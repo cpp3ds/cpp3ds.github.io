@@ -1,0 +1,6 @@
+<map id="Scene" name="Scene">
+<area shape="rect" id="node2" href="$classcpp3ds_1_1Input.html" title="Input" alt="" coords="5,109,59,136"/>
+<area shape="rect" id="node3" href="$classcpp3ds_1_1BottomScreen.html" title="BottomScreen" alt="" coords="83,109,193,136"/>
+<area shape="rect" id="node4" href="$classcpp3ds_1_1Screen.html" title="Screen" alt="" coords="187,5,253,32"/>
+<area shape="rect" id="node5" href="$classcpp3ds_1_1TopScreen.html" title="TopScreen" alt="" coords="218,109,309,136"/>
+</map>
