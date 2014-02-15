@@ -1,6 +1,6 @@
 <map id="StageNode" name="StageNode">
-<area shape="rect" id="node3" href="$classcpp3ds_1_1Actors_1_1Actor.html" title="Actor" alt="" coords="171,109,225,136"/>
+<area shape="rect" id="node3" href="$classcpp3ds_1_1Actors_1_1Actor.html" title="Actor" alt="" coords="193,109,247,136"/>
 <area shape="rect" id="node2" href="$classcpp3ds_1_1Stage.html" title="Stage" alt="" coords="105,307,163,333"/>
-<area shape="rect" id="node5" href="$structcpp3ds_1_1ActorNode.html" title="ActorNode" alt="" coords="90,201,179,228"/>
+<area shape="rect" id="node6" href="$structcpp3ds_1_1ActorNode.html" title="ActorNode" alt="" coords="90,201,179,228"/>
 <area shape="rect" id="node4" href="$classcpp3ds_1_1Drawable.html" title="Drawable" alt="" coords="179,5,260,32"/>
 </map>

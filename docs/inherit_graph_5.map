@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcpp3ds_1_1Scene.html" title="Scene" alt="" coords="6,5,69,32"/>
+<area shape="rect" id="node1" href="$classcpp3ds_1_1Screen.html" title="Screen" alt="" coords="5,31,72,57"/>
+<area shape="rect" id="node2" href="$classcpp3ds_1_1BottomScreen.html" title="BottomScreen" alt="" coords="121,5,231,32"/>
+<area shape="rect" id="node3" href="$classcpp3ds_1_1TopScreen.html" title="TopScreen" alt="" coords="130,56,222,83"/>
 </map>

@@ -88,6 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classcpp3ds_1_1Stage-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -99,14 +100,14 @@ Inheritance diagram for Stage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcpp3ds_1_1Stage__inherit__graph.png" border="0" usemap="#Stage_inherit__map" alt="Inheritance graph"/></div>
 <map name="Stage_inherit__map" id="Stage_inherit__map">
-<area shape="rect" id="node2" href="classcpp3ds_1_1Actors_1_1Actor.html" title="Actor" alt="" coords="18,80,72,107"/><area shape="rect" id="node3" href="classcpp3ds_1_1Drawable.html" title="Drawable" alt="" coords="5,5,85,32"/></map>
+<area shape="rect" id="node2" href="classcpp3ds_1_1Actors_1_1Actor.html" title="Actor" alt="" coords="73,80,127,107"/><area shape="rect" id="node3" href="classcpp3ds_1_1Drawable.html" title="Drawable" alt="" coords="5,5,85,32"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Stage:</div>
 <div class="dyncontent">
 <div class="center"><img src="classcpp3ds_1_1Stage__coll__graph.png" border="0" usemap="#Stage_coll__map" alt="Collaboration graph"/></div>
 <map name="Stage_coll__map" id="Stage_coll__map">
-<area shape="rect" id="node4" href="structcpp3ds_1_1Actors_1_1StageNode.html" title="StageNode" alt="" coords="22,96,116,123"/><area shape="rect" id="node2" href="classcpp3ds_1_1Actors_1_1Actor.html" title="Actor" alt="" coords="163,200,217,227"/><area shape="rect" id="node5" href="structcpp3ds_1_1ActorNode.html" title="ActorNode" alt="" coords="226,292,314,319"/><area shape="rect" id="node3" href="classcpp3ds_1_1Drawable.html" title="Drawable" alt="" coords="196,96,277,123"/></map>
+<area shape="rect" id="node5" href="structcpp3ds_1_1Actors_1_1StageNode.html" title="StageNode" alt="" coords="23,96,116,123"/><area shape="rect" id="node2" href="classcpp3ds_1_1Actors_1_1Actor.html" title="Actor" alt="" coords="210,200,264,227"/><area shape="rect" id="node6" href="structcpp3ds_1_1ActorNode.html" title="ActorNode" alt="" coords="323,292,412,319"/><area shape="rect" id="node3" href="classcpp3ds_1_1Drawable.html" title="Drawable" alt="" coords="197,96,277,123"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -126,6 +127,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setX</b> (float x)</t
 <tr class="memitem:a13358a3eda5f348a4e7c5c06299f787c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13358a3eda5f348a4e7c5c06299f787c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setY</b> (float y)</td></tr>
 <tr class="separator:a13358a3eda5f348a4e7c5c06299f787c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8f033a71b96920114aee202798dc7e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae8f033a71b96920114aee202798dc7e9"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>getX</b> ()</td></tr>
+<tr class="separator:ae8f033a71b96920114aee202798dc7e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f539cec219900ff6cf76edcfa52367"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa0f539cec219900ff6cf76edcfa52367"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>getY</b> ()</td></tr>
+<tr class="separator:aa0f539cec219900ff6cf76edcfa52367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37b2e2404ae25e63ce1d31d157b1d999"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37b2e2404ae25e63ce1d31d157b1d999"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>move</b> (float offsetX, float offsetY)</td></tr>
 <tr class="separator:a37b2e2404ae25e63ce1d31d157b1d999"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,12 +145,30 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>addStage</b> (<a clas
 <tr class="memitem:ac295bade8aee589f6718dfa79edc2a34"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac295bade8aee589f6718dfa79edc2a34"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>detach</b> ()</td></tr>
 <tr class="separator:ac295bade8aee589f6718dfa79edc2a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2cb860142ee6eed2f77128f187a77bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2cb860142ee6eed2f77128f187a77bd"></a>
+virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getValues</b> (int tweenType, float *returnValues)</td></tr>
+<tr class="separator:ab2cb860142ee6eed2f77128f187a77bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21435ac4248887d411975d3b26d64f4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae21435ac4248887d411975d3b26d64f4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setValues</b> (int tweenType, float *newValues)</td></tr>
+<tr class="separator:ae21435ac4248887d411975d3b26d64f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a2e234a338a67fac656a3889023d13c27"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2e234a338a67fac656a3889023d13c27"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>depth3d</b></td></tr>
 <tr class="separator:a2e234a338a67fac656a3889023d13c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ad47460aaf781c7f980d1c0b11ce3bcf6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad47460aaf781c7f980d1c0b11ce3bcf6"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>POSITION_X</b> = 1</td></tr>
+<tr class="separator:ad47460aaf781c7f980d1c0b11ce3bcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03cb13f1b59da9341e85483ef97cea2c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a03cb13f1b59da9341e85483ef97cea2c"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>POSITION_Y</b> = 2</td></tr>
+<tr class="separator:a03cb13f1b59da9341e85483ef97cea2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa9e1e0aaecde63897a240df82b6a92"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0fa9e1e0aaecde63897a240df82b6a92"></a>
+static const int&#160;</td><td class="memItemRight" valign="bottom"><b>POSITION_XY</b> = 3</td></tr>
+<tr class="separator:a0fa9e1e0aaecde63897a240df82b6a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -179,7 +204,7 @@ StageNode *&#160;</td><td class="memItemRight" valign="bottom"><b>stageTail</b><
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 10 2014 17:25:26 for cpp3ds by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 14 2014 23:23:52 for cpp3ds by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>
