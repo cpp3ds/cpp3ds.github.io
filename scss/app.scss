@@ -1,0 +1,158 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+@import "foundation-icons";
+
+html {height: 20000px;}
+
+.bg{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	background-attachment:fixed;
+	background-color:transparent;
+	background-position:0 0;
+	background-repeat:repeat;
+	z-index:-1;
+}
+
+.slide {
+	height: 3000px;
+	position: relative;
+}
+
+#intro{
+
+}
+#intro img {
+	height: 250px;
+}
+.bg.bar-1{
+background-color: #eee;
+background-image:url(../img/bar-1.png);
+}
+.bg.bar-2{
+background-image:url(../img/bar-2.png);
+}
+
+.logotext {
+	text-transform: uppercase;
+	font-size: 200px;
+	color: #222;
+	position:relative;
+}
+.logotext:first-letter{
+	color: #d12228;
+}
+.logotext .letters3ds {
+	color: #777;
+}
+
+
+
+#topnav {
+	background: transparent;
+	position:relative;
+}
+#topnav .sub-nav {
+	display: inline-block;
+}
+
+#navlogo img{
+	height: 20px;
+}
+#navlogo.active a{
+	background: none;
+}
+#scrollprogress {
+	background: #fbb;
+	height: 2px;
+	width: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+}
+.hsContent {
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+#logosvg{
+	height: 200px;
+	position: fixed;
+	top: 0;
+}
+path {
+	stroke-width: 7px;
+}
+#g4443 path, #g4475 path {
+	stroke-width: 1px;
+}
