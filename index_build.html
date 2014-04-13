@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cpp3ds</title>
     <link rel="stylesheet" href="css/app.css" />
-    <script src="app/bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
 
@@ -14,42 +14,43 @@
       <div class="row">
         <div class="large-12 columns">
           <a name="top"></a>
-          <h1 data-magellan-destination="top" class="logotext text-center" data-0="top:0px;" data-500="top:300px;" data-smooth-scrolling="off">cpp<span class="letters3ds">3ds</span></h1>
+          <h1 data-magellan-destination="top" class="logotext text-center">cpp<span class="letters3ds">3ds</span></h1>
         </div>
       </div>
       
-      <div data-magellan-expedition="fixed" id="topnav" class="text-center" data-top="background:#eee;">
+      <div data-magellan-expedition="fixed" id="topnav" class="text-center" data-top="background:rgba(240,240,240,0.0);" data--800-top="background:rgba(240,240,240,0.95);">
         <span id="scrollprogress" data-start="width:0%;" data-end="width:100%;"></span>
         <dl class="sub-nav">
           <dd id="navlogo" data-magellan-arrival="top"><a href="#top"><img src="img/logo.svg" /></a></dd>
           <dd data-magellan-arrival="what"><a href="#what">What is it?</a></dd>
           <dd data-magellan-arrival="ok"><a href="#ok">Features</a></dd>
-          <dd><a href="docs/"><i class="fi-book"></i> Docs</a></dd>
+          <dd><a href="docs/">Docs</a></dd>
         </dl>
       </div>
 
+      <img id="blue3ds" src="img/3ds_blue_model.png" data-anchor-target="#intro" data--150-top="margin-left:-150px; width:300px; bottom:5%;" data--500-top="bottom:15%;" data-200-bottom="margin-left:-300px; width:600px; opacity:1; filter:blur(0px);" data--300-bottom="margin-left:-350; width:700px; opacity:0; filter:blur(10px);" data-scrolling-smooth="off" />
+
+      <div id="scrollmsg" class="text-center" data-0="opacity:1;" data-300="opacity:0;"><i class="fi-arrow-down"></i> scroll <i class="fi-arrow-down"></i></div>
+
       <div class="row">
-        <div class="large-12 columns">
-          <h1 class="text-center">What is it?</h1>
-          <img src="img/3ds_blue_model.png" />
+        <div class="large-12 columns text-center">
+          <!-- <h1 class="text-center">What is it?</h1> -->
         </div>
       </div>
 
-      <span class="bar-1 bg" data-top="background-position:1000px 0;" data-top-bottom="background-position:0 0;"></span>
-      <span class="bar-2 bg"></span>
+      <span class="bar-1 bg" data-top="background-position:400px 0;" data-top-bottom="background-position:0 0;"></span>
+      <span class="bar-2 bg" data-top="background-position:400px 0;" data-top-bottom="background-position:200px 0;"></span>
     </div>
     
     <div id="intro2" class="slide">
-      
       <div class="row">
         <div class="large-12 columns">
-          <a name="top"></a>
-          <h1 data-magellan-destination="top">cpp3ds</h1>
-          <img src="img/3ds_blue_model.png" />
+          <a name="what"></a>
+          <h1 data-magellan-destination="what">What is it?</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lorem lacus, malesuada ac facilisis in, pulvinar eget ipsum. Suspendisse et volutpat urna. Aliquam non mi odio. Donec consequat nunc eu ornare posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus convallis at felis sit amet euismod. Phasellus sodales porttitor felis, sed feugiat ipsum placerat eget. Donec lorem orci, laoreet nec tortor in, dapibus vulputate ipsum. Maecenas vehicula accumsan arcu, eu semper turpis blandit pharetra.</p>
+          <p>Nulla facilisi. Quisque venenatis libero non dapibus tincidunt. Donec blandit luctus leo. Integer vel arcu bibendum, eleifend mauris id, pulvinar turpis. Sed vehicula orci eu leo hendrerit mattis. In nisl sapien, ornare quis dictum nec, lacinia id arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dapibus velit urna, ut vulputate nulla varius nec. Nam mattis sapien quis urna auctor iaculis. Ut accumsan placerat elit, eu rhoncus justo tristique eu. Nulla a felis sed lectus porttitor ultricies at a velit. Phasellus eleifend velit sit amet lorem vehicula posuere. Aliquam vel metus eros. Ut elementum interdum orci, eget scelerisque massa elementum non.</p>
         </div>
       </div>
-      <span class="bar-1 bg" data-top="background-position:1000px 0;" data-top-bottom="background-position:0 0;"></span>
-      <span class="bar-2 bg"></span>
     </div>
 
     
@@ -59,20 +60,7 @@
     <div class="row">
       <div class="large-12 columns">
         <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>
-          </div>
+          <h3>Test</h3>
         </div>
       </div>
     </div>
@@ -190,25 +178,11 @@
         <a href="#" class="medium success button">Success Btn</a><br/>
         <a href="#" class="medium alert button">Alert Btn</a><br/>
         <a href="#" class="medium secondary button">Secondary Btn</a></p>
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
-        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <a name="what"></a>
-        <h1 data-magellan-destination="what">What is it?</h1>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="large-12 columns">
-        <a name="ok"></a>
-        <h1 data-magellan-destination="ok">Test</h1>
+    <div id="outro" class="slide">
         <svg
            xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"
            preserveAspectRatio="xMinYMin meet"
@@ -257,7 +231,6 @@
             </g>
           </g>
         </svg>
-      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

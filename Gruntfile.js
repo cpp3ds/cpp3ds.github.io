@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         tasks: ['sass']
       },
       usemin: {
-        files: ['js/**/*.js', 'index.html'],
+        files: ['js/**/*.js', 'index_build.html'],
         tasks: ['copy','useminPrepare','concat','uglify','usemin']
       }
     },

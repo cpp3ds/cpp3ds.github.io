@@ -40,7 +40,7 @@
 //   "foundation/components/visibility";
 @import "foundation-icons";
 
-html {height: 20000px;}
+[data-magellan-expedition-clone] { visibility:hidden; }
 
 .bg{
 	width:100%;
@@ -62,24 +62,21 @@ html {height: 20000px;}
 }
 
 #intro{
+	height:2000px;
+}
 
-}
-#intro img {
-	height: 250px;
-}
 .bg.bar-1{
-background-color: #eee;
-background-image:url(../img/bar-1.png);
+	background-color:#eee;
+	background-image:url(../img/bar-1.png);
 }
-.bg.bar-2{
-background-image:url(../img/bar-2.png);
+.bg.bar-2{	
+	background-image:url(../img/bar-2.png);
 }
 
 .logotext {
 	text-transform: uppercase;
 	font-size: 200px;
 	color: #222;
-	position:relative;
 }
 .logotext:first-letter{
 	color: #d12228;
@@ -88,11 +85,27 @@ background-image:url(../img/bar-2.png);
 	color: #777;
 }
 
+#blue3ds {
+	position: fixed;
+	left:50%;
+}
+
+#scrollmsg {
+	position: fixed;
+	bottom: 1px;
+	width: 100%;
+	font-size: 20px;
+	color: #999;
+	text-transform: uppercase;
+}
+#scrollmsg i{
+	font-size: 25px;
+}
+
 
 
 #topnav {
 	background: transparent;
-	position:relative;
 }
 #topnav .sub-nav {
 	display: inline-block;
@@ -115,31 +128,12 @@ background-image:url(../img/bar-2.png);
 
 
 
-.hsContainer {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    opacity: 0;
+#intro2 {
+	background: #aaf;
 }
-.hsContent {
-    max-width: 450px;
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    vertical-align: middle;
-    color: #ebebeb;
-    padding: 0 8%;
-    text-align: center
-}
-.bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+
+#outro {
+	background: #aaf;
 }
 
 
@@ -147,7 +141,7 @@ background-image:url(../img/bar-2.png);
 
 #logosvg{
 	height: 200px;
-	position: fixed;
+	position: absolute;
 	top: 0;
 }
 path {
