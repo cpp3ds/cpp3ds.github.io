@@ -20,8 +20,10 @@
       
       <div data-magellan-expedition="fixed" id="topnav" class="text-center" data-top="background:rgba(240,240,240,0.0);" data--800-top="background:rgba(240,240,240,0.95);">
         <span id="scrollprogress" data-start="width:0%;" data-end="width:100%;"></span>
-        <dl class="sub-nav">
-          <dd id="navlogo" data-magellan-arrival="top"><a href="#top"><img src="img/logo.svg" /></a></dd>
+        <dl class="sub-nav" data--300-top="margin-left:-135px;" data--1300-top="margin-left:0;">
+          <dd id="navlogo" data-magellan-arrival="top"><a href="#top">
+            <img data-anchor-target="#topnav" data--200-top="opacity:0;" data--1000-top="opacity:1;" src="img/logo.svg" />
+          </a></dd>
           <dd data-magellan-arrival="what"><a href="#what">What is it?</a></dd>
           <dd data-magellan-arrival="ok"><a href="#ok">Features</a></dd>
           <dd><a href="docs/">Docs</a></dd>
