@@ -73,7 +73,7 @@
 	background-image: url(../img/question-2.png), url(../img/question-1.png), url(../img/question-1.png);
 	background-size: 60%, 40%, 15%;
 }
-#whatisit .scrollmsg{ color: #666; }
+#whatisit .scrollmsg{ color: #66a; }
 
 #outro {
 	background: #aaf;
@@ -124,9 +124,23 @@
 
 
 #logosvg{
-	height: 200px;
-	position: absolute;
-	top: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+@media #{$small-up} {
+	#logosvg{
+		height: 200px;
+		width: 500px;
+		margin: -100px 0 0 -250px;
+	}
+}
+@media #{$large-up} {
+	#logosvg{
+		height: 300px;
+		width: 1000px;
+		margin: -150px 0 0 -500px;
+	}
 }
 path {
 	stroke-width: 7px;

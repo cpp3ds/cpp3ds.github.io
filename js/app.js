@@ -12,7 +12,7 @@ $(document).foundation({
 });
 
 $(function(){
-	$('path_').each(function(){
+	$('path').each(function(){
 		var $this = $(this),
 		    color = $this.css('fill'),
 		    strokelength = $this[0].getTotalLength(),
@@ -29,7 +29,7 @@ $(function(){
 		$this.attr({
 			'data-anchor-target': '#outro',
 			'data-top': 'stroke-dashoffset:'+strokelength+';',
-			'data-200-bottom': 'stroke-dashoffset:0; fill-opacity:0; stroke-width:'+strokewidth+'; stroke-opacity:1;',
+			'data-400-bottom': 'stroke-dashoffset:0; fill-opacity:0; stroke-width:'+strokewidth+'; stroke-opacity:1;',
 			'data-bottom': 'fill-opacity:1; stroke-width:0; stroke-opacity:0;'
 		});
 	});
