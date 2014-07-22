@@ -48,6 +48,14 @@
 	background-attachment: fixed;
 	background-repeat: repeat;
 }
+.bgimg {
+	position: absolute;
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
 
 
 #intro{
@@ -74,6 +82,17 @@
 	background-size: 60%, 40%, 15%;
 }
 #whatisit .scrollmsg{ color: #66a; }
+
+
+#features {
+	background-color: #aaf;
+	background-image: url(../img/question-1.png);
+	background-size: 40%;
+}
+#img-eclipse {
+	background-image: url(../img/eclipse.png);
+}
+
 
 #outro {
 	background: #aaf;
