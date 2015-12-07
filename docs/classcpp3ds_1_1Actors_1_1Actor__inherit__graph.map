@@ -1,6 +1,0 @@
-<map id="Actor" name="Actor">
-<area shape="rect" id="node4" href="$classcpp3ds_1_1Actors_1_1Rectangle.html" title="Rectangle" alt="" coords="5,155,91,181"/>
-<area shape="rect" id="node5" href="$classcpp3ds_1_1Actors_1_1Text.html" title="Text" alt="" coords="116,155,167,181"/>
-<area shape="rect" id="node6" href="$classcpp3ds_1_1Stage.html" title="Stage" alt="" coords="191,155,248,181"/>
-<area shape="rect" id="node2" href="$classcpp3ds_1_1Drawable.html" title="Drawable" alt="" coords="46,5,127,32"/>
-</map>
