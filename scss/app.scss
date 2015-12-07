@@ -38,7 +38,7 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
-@import "foundation-icons";
+@import "font-awesome.scss";
 
 [data-magellan-expedition-clone] { visibility:hidden; }
 
@@ -83,6 +83,13 @@
 }
 #whatisit .scrollmsg{ color: #66a; }
 
+#download .fa {
+	font-size: 20px;
+	line-height: 10px;
+	vertical-align: sub;
+	margin: 0 5px 0 -6px;
+}
+
 
 #features {
 	background-color: #aaf;
@@ -109,9 +116,6 @@
 	width: 100%;
 	font-size: 20px;
 	text-transform: uppercase;
-}
-.scrollmsg i{
-	font-size: 25px;
 }
 
 
